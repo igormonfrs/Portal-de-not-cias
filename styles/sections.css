@@ -1,4 +1,5 @@
 #featured {
+  grid-area: featured;
   img {
     height: 100%;
     object-fit: cover;
@@ -37,12 +38,14 @@
 
 section header {
   border-top: 1px solid var(--stroke-color);
-  padding-block: 12px 24px; 
+  padding-block: 12px 24px;
+  color: var(--text-color-secondary);
   font: var(--text-span);
 
   a {
     justify-self: end;
     align-items: center;
+
     gap: 8px;
 
     span {
@@ -58,6 +61,7 @@ section header {
 }
 
 #weekly {
+  grid-area: weekly;
   & > div {
     grid-template-columns: repeat(4, 292px);
   }
@@ -80,5 +84,48 @@ section header {
       margin-top: 8px;
       font-weight: 700;
     }
+  }
+}
+
+#ia {
+  grid-area: ia;
+  img {
+    width: 176px;
+    height: 176px;
+  }
+
+  h3 {
+    margin-block: 8px 4px;
+    font-weight: 800;
+  }
+
+  p {
+    color: var(--text-color-secondary, #cbd5e1);
+    font-weight: 400;
+    font: var(--text-sm);
+  }
+}
+
+aside {
+  grid-area: aside;
+  
+
+}
+#more {
+  margin-top: 32px;
+
+  h3 {
+    margin-top: 8px
+  }
+
+  img {
+    height: 72px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+  }
+  h3{
+    color: var(--text-color-primary, #F1F5F9);
+    font: var(--text-sm);
+    font-weight: 800;
   }
 }
