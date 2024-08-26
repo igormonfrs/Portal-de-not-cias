@@ -10,27 +10,32 @@
     />
     <title>Document</title>
     <link rel="stylesheet" href="/styles/index.css" />
-  </head>
+  </head class="container">
   <body>
-    <header id="cabecalho">
-      <nav class="primary-menu">
-        <span> <img src="assets/List.svg" alt="" />Menu</span>
-        <span><img src="assets/Logo.svg" alt="" /></span>
-        <span>Buscar<img src="assets/MagnifyingGlass.svg" alt="" /></span>
-      </nav>
+    <header class="container">
+      <nav id="primary" class="grid grid-flow-col">
+        <div>
+          <img src="assets/icons/List.svg" alt="" />
+          <strong>Menu</strong>
+        </div>
 
-      <nav class="secundary-menu">
-        <ul class="list-menu">
-          <li class="nav-secundary-txt">
-            <a href="#">Inteligência Artificial</a>
-          </li>
-          <li class="nav-secundary-txt"><a href="#">Blockchain</a></li>
-          <li class="nav-secundary-txt"><a href="#">Hologramas</a></li>
-          <li class="nav-secundary-txt"><a href="#">Internet</a></li>
-          <li class="nav-secundary-txt"><a href="#">Vertiveis</a></li>
-          <li class="nav-secundary-txt"><a href="#">Realidade aumentada</a></li>
-          <li class="nav-secundary-txt"><a href="#">Realidade virtual</a></li>
-        </ul>
+        <div>
+          <img src="assets/icons/Logo.svg" alt="" />
+        </div>
+
+        <div>
+          <strong>Buscar</strong>
+          <img src="assets/icons/MagnifyingGlass.svg" alt="" />
+        </div>
+
+      </nav>
+      <nav id="secondary" class="grid grid-flow-col">
+        <a href="">Blockchain</a>
+        <a href="">Hologramas</a>
+        <a href="">Internet</a>
+        <a href="">Vertíveis</a>
+        <a href="">Realidade aumentada</a>
+        <a href="">Realidade virtual</a>
       </nav>
     </header>
   </body>
