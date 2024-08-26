@@ -16,8 +16,7 @@
     inset: 0;
     top: 50%;
 
-    background: linear-gradient(180deg, transparent 0%,
-        #020617 100%);
+    background: linear-gradient(180deg, transparent 0%, #020617 100%);
   }
 
   figcaption {
@@ -34,5 +33,18 @@
       margin-top: 8px;
     }
   }
-
 }
+
+/* #weekly {
+  margin-top: 80px;
+  padding-block:12px;
+  border: 1px solid;
+
+  header {
+  }
+
+  header :nth-child(2) {
+    justify-self: end;
+    border: 1px solid;
+  }
+} */
