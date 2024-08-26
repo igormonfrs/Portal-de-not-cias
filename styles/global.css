@@ -18,11 +18,14 @@ body {
   /* txt color */
   --text-color-primary: #f1f5f9;
   --text-color-secondary: #cbd5e1;
-
+  /* txt font */
   --text-style: "Archivo", sans-serif;
   --heading1: 800 24px/135% var(--text-style);
   --heading2: 700 16px/140% var(--text-style);
   --heading3: 800 14px/140% var(--text-style);
-  --span: 600 14px/145% var(--text-style);
-  --paragraph: 400 24px/160% var(--text-style);
+  --text-span: 600 14px/145% var(--text-style);
+  --text: 400 16px/160% var(--text-style);
+  --text-sm: 400 14px/160% var(--text-style);
 }
+
+

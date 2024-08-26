@@ -30,9 +30,13 @@
   border-bottom: 1px solid var(--stroke-color, #1e293b);
 }
 
-.nav-secundary-txt :nth-child(1) {
+.nav-secundary-txt a {
   color: var(--text-color-secondary, #cbd5e1);
-  font: var(--span);
+  font: var(--text-span);
+}
+
+.nav-secundary-txt a:hover {
+  color: var(--brand-color-light);
 }
 
 .list-menu {
